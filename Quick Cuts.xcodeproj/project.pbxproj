@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A982522D2BD0F70D00974894 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A982522C2BD0F70D00974894 /* ContentView.swift */; };
 		C068DE612BCFCA6400147AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068DE602BCFCA6400147AAF /* AppDelegate.swift */; };
 		C068DE632BCFCA6400147AAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068DE622BCFCA6400147AAF /* SceneDelegate.swift */; };
 		C068DE652BCFCA6400147AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C068DE642BCFCA6400147AAF /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A982522C2BD0F70D00974894 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C068DE5D2BCFCA6400147AAF /* Quick Cuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Cuts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C068DE602BCFCA6400147AAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C068DE622BCFCA6400147AAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A98252292BD0F62300974894 /* Mapkit */ = {
+			isa = PBXGroup;
+			children = (
+				A982522C2BD0F70D00974894 /* ContentView.swift */,
+			);
+			path = Mapkit;
+			sourceTree = "<group>";
+		};
 		C068DE542BCFCA6400147AAF = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 				C068DE622BCFCA6400147AAF /* SceneDelegate.swift */,
 				C068DE642BCFCA6400147AAF /* ViewController.swift */,
 				C068DE662BCFCA6400147AAF /* Main.storyboard */,
+				A98252292BD0F62300974894 /* Mapkit */,
 				C068DE692BCFCA6500147AAF /* Assets.xcassets */,
 				C068DE6B2BCFCA6500147AAF /* LaunchScreen.storyboard */,
 				C068DE6E2BCFCA6500147AAF /* Info.plist */,
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C068DE652BCFCA6400147AAF /* ViewController.swift in Sources */,
+				A982522D2BD0F70D00974894 /* ContentView.swift in Sources */,
 				C068DE612BCFCA6400147AAF /* AppDelegate.swift in Sources */,
 				C068DE632BCFCA6400147AAF /* SceneDelegate.swift in Sources */,
 			);
